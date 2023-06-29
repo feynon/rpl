@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-waitlist",
+  "version": "1.0.0",
+  "description": "A single-page single screen mobile friendly NextJS product waitlist website with tailwind styling and a dark neon theme",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "tailwindcss",
+    "waitlist",
+    "product"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.16"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6"
+  }
+}
