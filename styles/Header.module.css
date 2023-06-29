@@ -1,0 +1,31 @@
+.header {
+  background-color: #1a202c;
+  color: #2de2e6;
+  padding: 20px;
+  text-align: center;
+}
+
+.header .logo {
+  height: 50px;
+  width: 50px;
+}
+
+.header .title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header .subtitle {
+  font-size: 1.2rem;
+  color: #a0aec0;
+}
+
+@media (max-width: 640px) {
+  .header .title {
+    font-size: 1.5rem;
+  }
+
+  .header .subtitle {
+    font-size: 1rem;
+  }
+}
